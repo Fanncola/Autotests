@@ -1,6 +1,5 @@
 import requests
 import cerberus
-import random
 def test_get_locations():
     response = requests.get("http://api.zippopotam.us/RU/101000")
     assert response.status_code == 200
